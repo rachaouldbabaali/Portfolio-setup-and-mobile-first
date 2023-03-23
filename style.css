@@ -32,7 +32,7 @@ li {
     background-color: #fff;
     margin-top: 50px;
   }
-  
+
   nav {
     width: 93%;
     margin: auto;
@@ -44,7 +44,7 @@ li {
   .links-holder {
     display: none;
   }
-  
+
   .burger-menu {
     display: flex;
     flex-direction: column;
@@ -60,4 +60,5 @@ li {
     height: 2px;
     font-weight: bold;
     background: #6070ff;
-  }}
+  }
+}
