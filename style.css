@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-  
 body {
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -16,7 +15,6 @@ body {
 a {
   text-decoration: none;
 }
-  
 li {
   list-style: none;
 }
@@ -31,7 +29,6 @@ li {
     background-color: #fff;
     margin-top: 50px;
   }
-  
   nav {
     width: 93%;
     margin: auto;
@@ -39,11 +36,9 @@ li {
     justify-content: space-between;
     align-items: center;
   }
-
   .links-holder {
     display: none;
   }
-
   .burger-menu {
     display: flex;
     flex-direction: column;
@@ -53,7 +48,6 @@ li {
     width: 20px;
     gap: 2px;
   }
-
   .line {
     width: 80%;
     height: 2px;
