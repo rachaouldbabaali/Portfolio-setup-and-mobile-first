@@ -60,17 +60,16 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
 
 
-**[Hello Microverse]** This Hello Microverse project was created using HTML and CSS. It is a simple web page that displays a greeting message. The code was written with the help of linters to ensure that it is valid and follows best practices.The code was checked with the Lighthouse, Webhint and Stylelint linters to make sure that it follows the coding standards. It is a great example of how HTML and CSS can be used to create a simple yet effective web page.
+**[Portfolio]** Welcome to my portfolio! Here you will find a collection of my work that showcases my skills and experience in web development. I have included a variety of projects that demonstrate my ability to create websites and applications using HTML, CSS, JavaScript, and other web technologies. I am passionate about creating user-friendly and visually appealing websites and applications that are both functional and aesthetically pleasing. I am always looking for new challenges and opportunities to expand my knowledge and skills. If you have any questions or would like to discuss a project, please don't hesitate to contact me. Thank you for taking the time to explore my portfolio!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
-
+- HTML
+- CSS
 
 <details>
   <summary>Client</summary>
@@ -93,84 +92,42 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-
-
-- **[Html]**
-- **[Css]**
-- **[Github]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+## Getting Started
 
-## 👥 Authors <a name="authors"></a>
+To get a local copy up and running follow these simple example steps.
 
-👤 **Author**
+### Prerequisites
 
-- GitHub: [@rachaould]
+- You must have a code editor installed (VS code or Atom).
 
+### Setup
 
+- git init
+- git add .
+- git commit -m "first commit"
+- git branch -M
+- git clone
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Authors
 
-<!-- FUTURE FEATURES -->
+:bust_in_silhouette: **Author1**
 
+- GitHub: [@rachaouldbabaali](https://github.com/rachaouldbabaali)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/racha-ouldbabaali-25122877/)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
+## :handshake: Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Show your support
 
-<!-- SUPPORT -->
+Give a :star:️ if you like this project!
 
+## Acknowledgments
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Microverse documentation.
