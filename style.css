@@ -80,7 +80,7 @@ header {
   border-bottom-left-radius: 70px;
   background-color: #fff;
   margin-bottom: 114px;
-  }
+}
 
 .headline-section div {
   display: flex;
@@ -96,10 +96,6 @@ h1 {
   line-height: 52px;
   max-width: 240px;
   color: #172b4d;
-}
-
-li {
-  list-style: none;
 }
 
 .about-me {
@@ -121,5 +117,3 @@ li {
   display: flex;
   gap: 20px;
 }
-
-
