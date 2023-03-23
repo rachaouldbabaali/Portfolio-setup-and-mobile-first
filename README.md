@@ -223,7 +223,7 @@ I would like to thank Microverse.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first/blob/Navbar-Section1/MIT.md#copyright-2021-racha-ouldbabaali) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
