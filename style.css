@@ -75,7 +75,7 @@ header {
   width: 16px;
   height: 2px;
   font-weight: bold;
-  background: #6070FF;
+  background: #6070ff;
 }
 
 /* headline section styling */
@@ -91,7 +91,7 @@ header {
   border: 1px solid #dfe1e6;
   border-bottom-left-radius: 70px;
   background-color: #fff;
-  padding-top: 290px ;
+  padding-top: 290px;
   padding-right: 30px;
   padding-left: 23px;
   padding-bottom: 204px;
@@ -126,7 +126,7 @@ h1 {
 }
 
 .connect {
-  color: #7F8CFF;
+  color: #7f8cff;
   font-weight: 500;
   font-size: 15px;
   margin-block-end: 1em;
