@@ -25,12 +25,9 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+
+  <h3><b>My portfolio project</b></h3>
 
 </div>
 
@@ -60,11 +57,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-
-
-**[Hello Microverse]** This Hello Microverse project was created using HTML and CSS. It is a simple web page that displays a greeting message. The code was written with the help of linters to ensure that it is valid and follows best practices.The code was checked with the Lighthouse, Webhint and Stylelint linters to make sure that it follows the coding standards. It is a great example of how HTML and CSS can be used to create a simple yet effective web page.
+**[Portfolio]** Welcome to my portfolio! Here you will find a collection of my work that showcases my skills and experience in web development. I have included a variety of projects that demonstrate my ability to create websites and applications using HTML, CSS, JavaScript, and other web technologies. I am passionate about creating user-friendly and visually appealing websites and applications that are both functional and aesthetically pleasing. I am always looking for new challenges and opportunities to expand my knowledge and skills. If you have any questions or would like to discuss a project, please don't hesitate to contact me. Thank you for taking the time to explore my portfolio!
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,21 +70,22 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="">Html</a></li>
+    <li><a href="">Css</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="">n/a</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="/">n/a</a></li>
   </ul>
 </details>
 
@@ -98,10 +94,9 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-
-- **[Html]**
-- **[Css]**
-- **[Github]**
+- **[mobile responsive]**
+- **[contains a list of my past projects]**
+- **[contains a section where you can contact me]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,12 +104,59 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Comming soon]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+- you need a laptop.
+- you need github installed on it.
+- tou need a basic knowledge of Html and Css
+
+
+### Setup
+
+Clone this repository to your desired folder:
+- cd my-folder
+- git clone git@github.com:rachaouldbabaali/Portfolio-setup-and-mobile-first.git
+
+
+### Install
+
+Install this project with:
+
+
+- cd my-project
+- npm install .
+
+
+### Usage
+
+To run the project, execute the following command:
+- open your local server on your computer 
+
+
+### Run tests
+
+To run tests, run the following command:
+
+- npx stylelint "**/*.{css,scss}"
+- npx hint .
+- npx eslint .
+
+### Deployment
+
+You can deploy this project using: github page's
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -123,9 +165,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
 
-- GitHub: [@rachaould]
+
+👤 **Racha Ouldbabaali**
+
+- GitHub: [@rachaouldbabaali](https://github.com/rachaouldbabaali)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/racha-ouldbabaali-25122877/)
+
 
 
 
@@ -133,6 +179,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- FUTURE FEATURES -->
 
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[animations and transitions]**
+- [ ] **[deployement]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -143,23 +194,26 @@ After you're finished please remove all the comments and instructions!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
+## ⭐️ Show your support <a name="support"></a>
 
+
+show me your support by following me on github and giving me a star .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 
 
@@ -169,8 +223,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first/blob/Navbar-Section1/MIT.md#copyright-2021-racha-ouldbabaali) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
