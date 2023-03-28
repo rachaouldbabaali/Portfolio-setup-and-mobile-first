@@ -404,3 +404,42 @@ h1 {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+#contact-form {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 14px;
+}
+
+.input-text {
+  width: 90%;
+  height: 48px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.contact-text-area {
+  width: 90%;
+  border-radius: 8px;
+  height: 170px;
+  padding: 15px;
+}
+
+.placeholder {
+  color: #172b4d;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-text-area .placeholder {
+  color: #b3bac5;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+}
