@@ -292,7 +292,6 @@ h1 {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  padding-right: 50%;
   padding-bottom: 30px;
 }
 
@@ -375,4 +374,33 @@ h1 {
 
 .languages li {
   margin: 0 3px;
+}
+
+#contact-me {
+  margin-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-top-left-radius: 80px;
+  background: #6070ff;
+}
+
+.contact-container {
+  padding: 0 5%;
+}
+
+.contact-header {
+  color: #ffff;
+}
+
+.aligne-center {
+  text-align: center;
+}
+
+.contact-paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
 }
