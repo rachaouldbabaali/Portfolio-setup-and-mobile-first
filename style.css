@@ -110,8 +110,11 @@ header {
 }
 
 p {
-  margin-block-start: 1em;
   margin-block-end: 1em;
+}
+
+.headline-section p {
+  margin-block-start: 1em;
 }
 
 .headline-section div {
@@ -395,6 +398,7 @@ h1 {
 
 .contact-header {
   color: #ffff;
+  padding-bottom: 12px;
 }
 
 .aligne-center {
