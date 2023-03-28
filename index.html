@@ -365,6 +365,62 @@
         </div>
       </div>
       </section>
+      <!-- contact section -->
+      <section id="contact-me">
+        <div class="contact-container ">
+          <h3 class="contact-header about-header aligne-center">Contact me</h3>
+          <p class="contact-paragraph aligne-center">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d
+            love to help with it
+          </p>
+          
+          <form id="contact-form" action="https://formspree.io/f/mjvdwrry" method="POST"> 
+            <form action="https://formspree.io/f/{form_id}" method="post">
+            <ul class="contact-ul">
+              <li class="form-list">
+                <input
+                  type="text"
+                  class="input-text"
+                  placeholder="John Doe"
+                  id="user-name"
+                  value="Racha"
+                  name="user_name"
+                  required
+                  maxlength="30"
+                />
+              </li>
+              <li class="form-list">
+                <input
+                  type="email"
+                  class="input-text"
+                  id="contact-email"
+                  value="racha@gmail.com"
+                  required
+                  placeholder="example@gmail.com"
+                  name="user_email"
+                />
+              </li>
+              <li class="form-list">
+                <textarea
+                  class="contact-text-area"
+                  id="msg"
+                  name="user_message"
+                  maxlength="500"
+                  required
+                  placeholder="Leave a message here"
+                ></textarea>
+              </li>
+              <li class="contact-button-li">
+                <small class="error"></small>
+                <button class="btn contact-button" type="submit">
+                  Get in touch
+                </button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </section>
     </main>
   </div>
 </body>

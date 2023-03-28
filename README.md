@@ -172,6 +172,9 @@ You can deploy this project using: github page's
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/racha-ouldbabaali-25122877/)
 
 
+👤 **Phelelani Ndlovu**
+
+- GitHub: [@techmoves](https://github.com/techmoves)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -210,7 +213,7 @@ show me your support by following me on github and giving me a star .
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+I would like to thank Microverse, and my previous code parteners @RahimiAlijan(https://github.com/rahimialijan) and @FelixKamana(https://github.com/fezzopro)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
