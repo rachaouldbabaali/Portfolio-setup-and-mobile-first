@@ -377,15 +377,20 @@ h1 {
 }
 
 #contact-me {
-  margin-top: 100px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  border-top-left-radius: 80px;
-  background: #6070ff;
+  display: flex;
+  justify-content: center;
+  background-image: url(images/contact-bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 120px;
+  background-color: #6070ff;
+  margin-top: 177px;
+  padding-top: 103px;
 }
 
 .contact-container {
-  padding: 0 5%;
+  padding: 0 15px;
 }
 
 .contact-header {
@@ -409,7 +414,6 @@ h1 {
   display: flex;
   text-align: center;
   flex-direction: column;
-  padding-top: 14px;
 }
 
 .input-text {
@@ -418,6 +422,8 @@ h1 {
   border-radius: 8px;
   margin-bottom: 20px;
   padding: 15px;
+  border: 0;
+  margin-bottom: 20px;
 }
 
 .contact-text-area {
@@ -427,7 +433,7 @@ h1 {
   padding: 15px;
 }
 
-.placeholder {
+::placeholder {
   color: #172b4d;
   padding-left: 10px;
   font-weight: 400;
@@ -436,10 +442,37 @@ h1 {
   font-family: 'Poppins', sans-serif;
 }
 
-.contact-text-area .placeholder {
+.contact-text-area::placeholder {
   color: #b3bac5;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   font-family: 'Poppins', sans-serif;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: left;
+  background-color: #fff;
+  color: #5264ff;
+  border: 1px solid #5264ff;
+  border-radius: 8px;
+  height: 48px;
+  width: 140px;
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom: 45px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.contact-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.contact-button:active {
+  background-color: #2230d2;
+  color: #fff;
 }
