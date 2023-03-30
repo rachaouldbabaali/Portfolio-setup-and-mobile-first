@@ -737,7 +737,7 @@ h1 {
   #contact-me {
     display: flex;
     justify-content: center;
-    background-image: url(./Assets/background-images/contact-form-background-image-web.svg);
+    background-image: url(images/contact-form-background-image-web.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
