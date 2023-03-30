@@ -41,6 +41,24 @@
                     d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
                   />
                 </svg>
+                <!-- mobile nav display -->
+        <div class="container-nav">
+          <ul class="mobile-nav-item">
+            <li class="mobile-nav-li">
+              <a href="#projects" class="mobile-nav-links">Portfolio</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a href="#about-section" class="mobile-nav-links">About</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a href="#contact-me" class="mobile-nav-links">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="hamb-ul">
+            <li class="close-hamb">&times;</li>
+          </ul>
+        </div>
             </div>
           </nav>
         
@@ -48,10 +66,10 @@
     <main>
       <!--Headline section-->
       <section class="headline-section">
-          <div>
-            <h1 tabindex="0">I'm Racha Glad to see you!</h1>
+          <div >
+            <h1 tabindex="0">I'm Racha, <br> Glad to see you!</h1>
             <p tabindex="0" class="about-me">
-              I’m a software developer! I can help you build a product , feature
+              I’m a software developer! I can help you build a product, feature
               or website Look through some of my work and experience! If you like
               what you see and have a project you need coded, don’t hestiate to
               contact me.
@@ -90,11 +108,18 @@
       <section id="projects">
       <div id="first-project" class="project">
         <div class="project-image">
+          <!-- mobile-image -->
           <img
             src="images/project-1.jpg"
             alt="project"
             class="first-project-image"
           />
+        <!-- web-image -->
+        <img
+          src="images/1st-project-image.png"
+          alt="project"
+          class="project-image-web"
+        />
         </div>
         <div class="project-content">
           <h1 class="project-heading">Tonic</h1>
@@ -145,6 +170,11 @@
             alt="project"
             class="first-project-image"
           />
+          <img
+          src="images/2nd-project-image.png"
+          alt="project"
+          class="project-image-web"
+        />
         </div>
         <div class="project-content">
           <h1 class="project-heading">Multi-Post Stories</h1>
@@ -195,6 +225,11 @@
             alt="project"
             class="first-project-image"
           />
+          <img
+          src="images/3rd-project-image.png"
+          alt="project"
+          class="project-image-web"
+        />
         </div>
         <div class="project-content">
           <h1 class="project-heading">Tonic</h1>
@@ -245,6 +280,11 @@
             alt="project"
             class="first-project-image"
           />
+          <img
+          src="images/4th-project-image.png"
+          alt="project"
+          class="project-image-web"
+        />
         </div>
         <div class="project-content">
           <h1 class="project-heading">Multi-Post Stories</h1>
@@ -291,6 +331,7 @@
       <!-- about section -->
       <section id="about-section">
       <div class="about">
+        <div class="about-web">
         <h1 class="about-header">About Myself</h1>
         <p class="about-me">
           Hello I’m a software developer! I can help you build a product ,
@@ -328,11 +369,12 @@
           
         </ul>
         <button class="btn project-link" type="button">Get my resume</button>
-        <div class="">
+      </div>
+        <div class="language-container">
           <ul class="about-languages">
             <li>
               <div class="language-header-container">
-                <h3 class="language-header">Lanuages</h3>
+                <h2 class="language-header">Lanuages</h3>
                 <img src="images/icon-down.png" alt="" />
               </div>
               <ul class="my-language">
