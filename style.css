@@ -642,6 +642,8 @@ h1 {
 
   .project-content {
     width: 50%;
+    position: relative;
+    top: -33px;
   }
 
   #first-project {
@@ -664,6 +666,10 @@ h1 {
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
+  }
+
+  .description {
+    padding-bottom: 10px;
   }
 
   .content-text {
