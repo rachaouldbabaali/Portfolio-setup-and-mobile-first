@@ -785,7 +785,7 @@ h1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  .nav-li:hover {
+  .link:hover {
     transform: scale(1.15);
     transform-origin: 1%;
     transition-duration: 0.1s;
@@ -795,11 +795,12 @@ h1 {
 
 /* animations */
 .logo:hover {
-  transform: scale(1.15);
+  transform: scale(1.5);
   transform-origin: 1%;
   transition-duration: 0.1s;
 }
-.social-icons:hover {
+
+.icon:hover {
   transform: scale(1.2);
   transform-origin: 1%;
   transition-duration: 0.1s;
