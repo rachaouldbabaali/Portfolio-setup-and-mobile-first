@@ -104,7 +104,7 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Rachat's Portfolio](https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html)
+- [Racha's Portfolio](https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
