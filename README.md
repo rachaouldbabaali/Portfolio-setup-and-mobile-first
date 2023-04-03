@@ -104,7 +104,7 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Comming soon]()
+- [Racha's Portfolio](https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,9 +172,6 @@ You can deploy this project using: github page's
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/racha-ouldbabaali-25122877/)
 
 
-👤 **Phelelani Ndlovu**
-
-- GitHub: [@techmoves](https://github.com/techmoves)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -184,8 +181,7 @@ You can deploy this project using: github page's
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[animations and transitions]**
-- [ ] **[deployement]**
+- [ ] **[adding js to the project]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
