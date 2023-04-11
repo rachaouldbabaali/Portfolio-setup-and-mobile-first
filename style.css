@@ -5,6 +5,7 @@
 
 html {
   min-width: 365px;
+  scroll-behavior: smooth;
 }
 
 body {
