@@ -502,6 +502,7 @@ h1 {
 }
 
 .close-hamb {
+  cursor: pointer;
   font-size: 40px;
   font-weight: 300;
   color: white;
