@@ -245,6 +245,7 @@ h1 {
   font-weight: 500;
   line-height: 24px;
 }
+
 .about-me-btn {
   color: #396df2;
   font-size: 17px;
@@ -506,7 +507,7 @@ h1 {
   color: white;
   padding-right: 15px;
   padding-top: 0;
-  float:right
+  float: right;
 }
 
 .hamb-ul {
