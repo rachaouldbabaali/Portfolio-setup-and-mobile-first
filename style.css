@@ -5,6 +5,7 @@
 
 html {
   min-width: 365px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -52,8 +53,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 24px;
-  padding-right: 36px;
   width: 99%;
 }
 
@@ -61,6 +60,7 @@ header {
   color: #6070ff;
   font-size: 25px;
   font-weight: 700;
+  padding-left: 30px;
 }
 
 .bi-list {
@@ -87,6 +87,7 @@ header {
   height: 20px;
   width: 20px;
   gap: 2px;
+  padding-right: 36px;
 }
 
 .line {
@@ -244,6 +245,14 @@ h1 {
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
+}
+
+.about-me-btn {
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 140px;
 }
 
 .btn {
@@ -464,7 +473,7 @@ h1 {
   border: 1px solid #5264ff;
   border-radius: 8px;
   height: 48px;
-  width: 140px;
+  width: 120px;
   margin-top: 25px;
   margin-left: 20px;
   margin-bottom: 45px;
@@ -494,11 +503,13 @@ h1 {
 }
 
 .close-hamb {
+  cursor: pointer;
   font-size: 40px;
   font-weight: 300;
   color: white;
   padding-right: 15px;
   padding-top: 0;
+  float: right;
 }
 
 .hamb-ul {
@@ -507,12 +518,11 @@ h1 {
 }
 
 .container-nav {
-  position: fixed;
   height: 100vh;
   width: 100%;
   margin: 0;
+  padding: 30px 0 0 30px;
   display: none;
-  justify-content: space-between;
   background-color: #6070ff;
 }
 
@@ -520,7 +530,7 @@ h1 {
   margin: 0;
   font-size: 32px;
   font-weight: 600;
-  padding: 70px 0 0 30px;
+  padding: 0 0 0 3%;
   line-height: 44px;
 }
 
