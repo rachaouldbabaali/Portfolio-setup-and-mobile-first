@@ -815,9 +815,7 @@ h1 {
   transition-duration: 0.1s;
 }
 
-
 /* modal style */
-
 .modal-container {
   position: fixed;
   z-index: 1000;
