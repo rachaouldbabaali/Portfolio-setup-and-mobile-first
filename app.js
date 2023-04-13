@@ -255,3 +255,15 @@ openModalButton.forEach((button) => {
     openModal(projects[event.target.id].featuredImg);
   });
 });
+
+// form validation
+const contactForm = document.querySelector('#contact-form');
+const contactEmail = document.querySelector('#contact-email');
+const errorHolder = document.querySelector('.error');
+contactForm.addEventListener('submit', (e) => {
+  const message = contactEmail.value;
+  const messageList = message.replace(/[^a-zA-Z]/g, '').split('');
+  for (let i = 0; i < messageList.length; i += 1) {
+    
+  }
+});
