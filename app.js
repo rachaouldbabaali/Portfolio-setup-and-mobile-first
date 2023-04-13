@@ -47,7 +47,7 @@ const projects = [
     featuredImgMobile: 'images/project-2.jpg',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
-    technologies: ['HTML', 'CSS', 'javaScript'],
+    technologies: ['HTML', 'Ruby on Rails', 'CSS', 'javaScript'],
     liveVersion: 'https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html',
     sourceCode: 'https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first',
   },
@@ -58,7 +58,7 @@ const projects = [
     featuredImgMobile: 'images/project-3.jpg',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
-    technologies: ['HTML', 'CSS', 'javaScript'],
+    technologies: ['HTML', 'Ruby on Rails', 'CSS', 'javaScript'],
     liveVersion: 'https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html',
     sourceCode: 'https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first',
   },
@@ -69,7 +69,7 @@ const projects = [
     featuredImgMobile: 'images/project-4.jpg',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
-    technologies: ['HTML', 'CSS', 'javaScript'],
+    technologies: ['HTML', 'Ruby on Rails', 'CSS', 'javaScript'],
     liveVersion: 'https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html',
     sourceCode: 'https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first',
   },
