@@ -195,21 +195,11 @@ function creatPopup(name, imageSource, description, technologies, liveVersion, s
   />
   <div class="modal-content">
   <p class="modal-texts">
-    ${description} 
-    standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it to make a type specimen book. It has survived
-    not only five centuries, but also the leap into electronic typesetting, remaining essent
-    iste cum consequatur, unde porro laboriosam velit. Consectetur repellendus
-    illo iure reiciendis repudiandae voluptatum velit, placeat a culpa ut nemo aut suscipit? Pariatur, a.
+    ${description}
   </p>
   <div class="modal-contact">
     <ul class="languages modal-ul">
-      <li class="language-used modal-li">${technologies[0]}</li>
-      <li class="language-used modal-li">${technologies[1]}</li>
-      <li class="language-used modal-li">Bootstrap</li>
-      <li class="language-used modal-li">gitHub</li>
-      <li class="language-used modal-li">Ruby</li>
-      <li class="language-used modal-li">${technologies[2]}</li>
+      ${technologies.map((tech) => `<li class="language-used">${tech}</li>`).join('')}
     </ul>
     <hr class="modal-hr" />
     <a href="${liveVersion}">
