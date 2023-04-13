@@ -77,7 +77,7 @@ const projects = [
 
 const projectContainer = document.querySelector('#projects');
 
-
+// eslint-disable-next-line array-callback-return
 projects.map((element, i) => {
   // create all elements used for card
 
@@ -246,7 +246,7 @@ function openModal(imgSource) {
   overlay.classList.add('active');
 }
 
-
+// eslint-disable-next-line no-unused-vars
 function closeModal() {
   const modal = modalContainer.children[0];
   modalContainer.removeChild(modal);
