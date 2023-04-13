@@ -267,3 +267,25 @@ contactForm.addEventListener('submit', (e) => {
     }
   }
 });
+
+// local storage
+const name = document.querySelector('#user-name');
+const email = document.querySelector('#contact-email');
+const message = document.querySelector('#msg');
+const savedData = JSON.parse(localStorage.getItem('myFormData')) || {};
+function saveFormData() {
+  const formData = {
+    name: name.value,
+    email: email.value,
+    message: message.value,
+  };
+
+  localStorage.setItem('myFormData', JSON.stringify(formData));
+}
+// Populate the input fields with saved data (if any)
+name.value = savedData.name || '';
+email.value = savedData.email || '';
+message.value = savedData.message || '';
+name.addEventListener('input', saveFormData);
+email.addEventListener('input', saveFormData);
+message.addEventListener('input', saveFormData);
