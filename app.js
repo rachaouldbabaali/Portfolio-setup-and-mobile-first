@@ -47,7 +47,7 @@ const projects = [
     featuredImgMobile: 'images/project-2.jpg',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
-    technologies: ['HTML', 'CSS', 'javaScript'],
+    technologies: ['HTML', 'Ruby on Rails', 'CSS', 'javaScript'],
     liveVersion: 'https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html',
     sourceCode: 'https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first',
   },
@@ -58,7 +58,7 @@ const projects = [
     featuredImgMobile: 'images/project-3.jpg',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
-    technologies: ['HTML', 'CSS', 'javaScript'],
+    technologies: ['HTML', 'Ruby on Rails', 'CSS', 'javaScript'],
     liveVersion: 'https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html',
     sourceCode: 'https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first',
   },
@@ -69,7 +69,7 @@ const projects = [
     featuredImgMobile: 'images/project-4.jpg',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
-    technologies: ['HTML', 'CSS', 'javaScript'],
+    technologies: ['HTML', 'Ruby on Rails', 'CSS', 'javaScript'],
     liveVersion: 'https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html',
     sourceCode: 'https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first',
   },
@@ -166,11 +166,11 @@ const modalContainer = document.querySelector('.popup');
 const openModalButton = document.querySelectorAll('[data-modal-target]');
 const overlay = document.getElementById('overlay');
 
-function creatPopup(imageSource) {
+function creatPopup(name, imageSource, description, technologies, liveVersion, sourceCode) {
   const modal = document.createElement('div');
   modal.innerHTML = `<div class="modal active" id="modal">
   <div class="modal-header">
-    <h4 class="modal-heading">Tonic</h4>
+    <h4 class="modal-heading">${name}</h4>
     <h4 data-close-button onclick="closeModal()"class="modal-close">&times;</h4>
   </div>
   <div class="small-description">
@@ -195,24 +195,14 @@ function creatPopup(imageSource) {
   />
   <div class="modal-content">
   <p class="modal-texts">
-    lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis voluptatibus error veritatis
-    ad minima nesciunt harum sed, fugiat eum quis, architecto impedit inventore nam. Assumenda repellendus
-    <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
-    iste cum consequatur, unde porro laboriosam velit. Consectetur repellendus
-    illo iure reiciendis repudiandae voluptatum velit, placeat a culpa ut nemo aut suscipit? Pariatur, a.
+    ${description}
   </p>
   <div class="modal-contact">
     <ul class="languages modal-ul">
-      <li class="language-used modal-li">HTML</li>
-      <li class="language-used modal-li">CSS</li>
-      <li class="language-used modal-li">Bootstrap</li>
-      <li class="language-used modal-li">gitHub</li>
-      <li class="language-used modal-li">Ruby</li>
-      <li class="language-used modal-li">javaScript</li>
+      ${technologies.map((tech) => `<li class="language-used">${tech}</li>`).join('')}
     </ul>
     <hr class="modal-hr" />
-    <a href="https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html">
+    <a href="${liveVersion}">
       <button class="btn modal-btn" type="submit">
         See live
         <img
@@ -222,7 +212,7 @@ function creatPopup(imageSource) {
         />
       </button>
     </a>
-    <a href="https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first">
+    <a href="${sourceCode}">
       <button class="btn modal-btn" type="submit">
         See Source
         <img
@@ -238,8 +228,8 @@ function creatPopup(imageSource) {
   modalContainer.append(modal);
 }
 
-function openModal(imgSource) {
-  creatPopup(imgSource);
+function openModal(name, imgSource, description, technologies, liveVersion, sourceCode) {
+  creatPopup(name, imgSource, description, technologies, liveVersion, sourceCode);
   overlay.classList.add('active');
 }
 
@@ -252,7 +242,14 @@ function closeModal() {
 
 openModalButton.forEach((button) => {
   button.addEventListener('click', (event) => {
-    openModal(projects[event.target.id].featuredImg);
+    openModal(
+      projects[event.target.id].name,
+      projects[event.target.id].featuredImg,
+      projects[event.target.id].description,
+      projects[event.target.id].technologies,
+      projects[event.target.id].liveVersion,
+      projects[event.target.id].sourceCode,
+    );
   });
 });
 
