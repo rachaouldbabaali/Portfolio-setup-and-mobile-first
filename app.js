@@ -268,24 +268,27 @@ contactForm.addEventListener('submit', (e) => {
   }
 });
 
-// local storage
+if (localStorage == null) {
+  const formData = {
+    user_name: '',
+    user_email: '',
+    user_message: '',
+  };
+  localStorage.setItem('myFormData', JSON.stringify(formData));
+}
+
 const name = document.querySelector('#user-name');
 const email = document.querySelector('#contact-email');
 const message = document.querySelector('#msg');
-const savedData = JSON.parse(localStorage.getItem('myFormData')) || {};
-function saveFormData() {
-  const formData = {
-    name: name.value,
-    email: email.value,
-    message: message.value,
-  };
+const savedData = JSON.parse(localStorage.getItem('myFormData'));
+// read data from local storage if any
+name.value = savedData.user_name;
+email.value = savedData.user_email;
+message.value = savedData.user_message;
 
-  localStorage.setItem('myFormData', JSON.stringify(formData));
+function changeField(event) {
+  const changedValue = event.target.value;
+  const fieldName = event.target.name;
+  const infoStore = JSON.parse(localStorage.getItem('myFormData'));
+  localStorage.setItem('myFormData', JSON.stringify({ ...infoStore, [fieldName]: changedValue }))
 }
-// Populate the input fields with saved data (if any)
-name.value = savedData.name || '';
-email.value = savedData.email || '';
-message.value = savedData.message || '';
-name.addEventListener('input', saveFormData);
-email.addEventListener('input', saveFormData);
-message.addEventListener('input', saveFormData);
