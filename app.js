@@ -77,8 +77,7 @@ const projects = [
 
 const projectContainer = document.querySelector('#projects');
 
-// eslint-disable-next-line array-callback-return
-projects.map((element, i) => {
+projects.foreach((element, i) => {
   // create all elements used for card
 
   const projectDiv = document.createElement('div');
@@ -233,7 +232,6 @@ function openModal(name, imgSource, description, technologies, liveVersion, sour
   overlay.classList.add('active');
 }
 
-// eslint-disable-next-line no-unused-vars
 function closeModal() {
   const modal = modalContainer.children[0];
   modalContainer.removeChild(modal);
@@ -267,3 +265,28 @@ contactForm.addEventListener('submit', (e) => {
     }
   }
 });
+
+if (localStorage == null) {
+  const formData = {
+    user_name: '',
+    user_email: '',
+    user_message: '',
+  };
+  localStorage.setItem('myFormData', JSON.stringify(formData));
+}
+
+const name = document.querySelector('#user-name');
+const email = document.querySelector('#contact-email');
+const message = document.querySelector('#msg');
+const savedData = JSON.parse(localStorage.getItem('myFormData'));
+// read data from local storage if any
+name.value = savedData.user_name;
+email.value = savedData.user_email;
+message.value = savedData.user_message;
+
+function changeField(event) {
+  const changedValue = event.target.value;
+  const fieldName = event.target.name;
+  const infoStore = JSON.parse(localStorage.getItem('myFormData'));
+  localStorage.setItem('myFormData', JSON.stringify({ ...infoStore, [fieldName]: changedValue }));
+}

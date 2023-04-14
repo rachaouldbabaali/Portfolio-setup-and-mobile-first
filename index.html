@@ -201,15 +201,15 @@
             <ul class="contact-ul">
               <li class="form-list">
                 <input
-                  type="text"
-                  class="input-text"
-                  placeholder="John Doe"
-                  id="user-name"
-                  value="Racha"
-                  name="user_name"
-                  required
-                  maxlength="30"
-                  aria-label="name"
+                type="text"
+                class="input-text"
+                placeholder="John Doe"
+                id="user-name"
+                name="user_name"
+                required
+                maxlength="30"
+                onInput="changeField(event)"
+                aria-label="name"
                 />
               </li>
               <li class="form-list">
@@ -217,11 +217,11 @@
                   type="email"
                   class="input-text"
                   id="contact-email"
-                  value="racha@gmail.com"
                   required
                   placeholder="example@gmail.com"
                   name="user_email"
                   aria-label="email"
+                  onInput="changeField(event)"
                 />
               </li>
               <li class="form-list">
@@ -233,6 +233,7 @@
                   required
                   placeholder="Leave a message here"
                   aria-label="Leave a message here"
+                  onInput="changeField(event)"
                 ></textarea>
               </li>
               <li class="contact-button-li">
