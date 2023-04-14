@@ -983,3 +983,7 @@ h1 {
   opacity: 1;
   pointer-events: all;
 }
+
+.error {
+  color: red;
+}
