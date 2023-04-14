@@ -77,8 +77,7 @@ const projects = [
 
 const projectContainer = document.querySelector('#projects');
 
-// eslint-disable-next-line array-callback-return
-projects.map((element, i) => {
+projects.foreach((element, i) => {
   // create all elements used for card
 
   const projectDiv = document.createElement('div');
@@ -233,7 +232,6 @@ function openModal(name, imgSource, description, technologies, liveVersion, sour
   overlay.classList.add('active');
 }
 
-// eslint-disable-next-line no-unused-vars
 function closeModal() {
   const modal = modalContainer.children[0];
   modalContainer.removeChild(modal);
@@ -286,7 +284,6 @@ name.value = savedData.user_name;
 email.value = savedData.user_email;
 message.value = savedData.user_message;
 
-// eslint-disable-next-line no-unused-vars
 function changeField(event) {
   const changedValue = event.target.value;
   const fieldName = event.target.name;
