@@ -286,9 +286,10 @@ name.value = savedData.user_name;
 email.value = savedData.user_email;
 message.value = savedData.user_message;
 
+// eslint-disable-next-line no-unused-vars
 function changeField(event) {
   const changedValue = event.target.value;
   const fieldName = event.target.name;
   const infoStore = JSON.parse(localStorage.getItem('myFormData'));
-  localStorage.setItem('myFormData', JSON.stringify({ ...infoStore, [fieldName]: changedValue }))
+  localStorage.setItem('myFormData', JSON.stringify({ ...infoStore, [fieldName]: changedValue }));
 }
