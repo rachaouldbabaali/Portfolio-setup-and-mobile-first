@@ -198,7 +198,7 @@ h1 {
 }
 
 .project-heading {
-  color: #172b4d;
+  color: #2f4874;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -651,7 +651,6 @@ h1 {
 
   .project-content {
     width: 50%;
-    position: relative;
     top: -33px;
   }
 
@@ -921,13 +920,15 @@ h1 {
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
-  color: #396df2;
+  color: #091e42;
   padding: 8px 10px 8px 10px;
   margin-left: 20px;
+  border: #091e42 2px solid;
 }
 
 .modal-btn:hover {
-  background-color: #c6c2f892;
+  background-color: #091e42;
+  color: white;
 }
 
 .modal-vectors {

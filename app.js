@@ -31,53 +31,54 @@ about.forEach((n) => {
 // popup window
 const projects = [
   {
-    name: 'Tonic',
-    featuredImg: './images/1st-project-image.png',
-    featuredImgMobile: './images/project-1.jpg',
+    name: 'RAKI BOOK STORE',
+    featuredImg: './images/RAKIBookStore.png',
+    featuredImgMobile: './images/RAKIBookStore-m.png',
     description:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
-    technologies: ['HTML', 'CSS', 'javaScript'],
-    liveVersion: 'https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html',
-    sourceCode: 'https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first',
+      'Rakibook store is an online bookstore that offers a wide variety of books across multiple genres. The store provides a convenient and user-friendly platform for customers to browse and purchase books from the comfort of their homes. ',
+    technologies: ['HTML', 'CSS', 'javaScript', 'API', 'GitHub', 'Jest'],
+    liveVersion: 'https://rachaouldbabaali.github.io/JavaScript-capstone-/dist/',
+    sourceCode: 'https://github.com/rachaouldbabaali/JavaScript-capstone-',
   },
 
   {
-    name: 'Multi-Post Stories',
-    featuredImg: 'images/2nd-project-image.png',
-    featuredImgMobile: 'images/project-2.jpg',
+    name: 'SmartEd Online School',
+    featuredImg: 'images/smarted.png',
+    featuredImgMobile: 'images/smarted-m.png',
     description:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
-    technologies: ['HTML', 'Ruby on Rails', 'CSS', 'javaScript'],
-    liveVersion: 'https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html',
-    sourceCode: 'https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first',
+      'SmartEd Online is a leading online school that offers a wide range of courses and programs to students of all ages.',
+    technologies: ['HTML', 'CSS', 'javaScript', 'Local Storage', 'GitHub'],
+    liveVersion: 'https://rachaouldbabaali.github.io/capstone-1/',
+    sourceCode: 'https://github.com/rachaouldbabaali/capstone-1',
   },
 
   {
-    name: 'Tonic',
-    featuredImg: 'images/3rd-project-image.png',
-    featuredImgMobile: 'images/project-3.jpg',
+    name: 'Leaderboard List', 
+    featuredImg: 'images/leaderboard.png',
+    featuredImgMobile: 'images/leaderboard-m.png',
     description:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
-    technologies: ['HTML', 'Ruby on Rails', 'CSS', 'javaScript'],
-    liveVersion: 'https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html',
-    sourceCode: 'https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first',
+      'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
+    technologies: ['HTML', 'SASS', 'javaScript', 'API', 'Webpack', 'GitHub'],
+    liveVersion: 'https://rachaouldbabaali.github.io/Leaderboard-list-app/dist/',
+    sourceCode: 'https://rachaouldbabaali.github.io/Leaderboard-list-app',
   },
 
   {
-    name: 'Multi-Post Stories',
-    featuredImg: 'images/4th-project-image.png',
-    featuredImgMobile: 'images/project-4.jpg',
+    name: 'To Do List',
+    featuredImg: 'images/todolist.png',
+    featuredImgMobile: 'images/todolist-m.png',
     description:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
-    technologies: ['HTML', 'Ruby on Rails', 'CSS', 'javaScript'],
-    liveVersion: 'https://rachaouldbabaali.github.io/Portfolio-setup-and-mobile-first/index.html',
-    sourceCode: 'https://github.com/rachaouldbabaali/Portfolio-setup-and-mobile-first',
+      'A to-do list project is a simple application that allows users to create a list of tasks that they need to complete. The user can add new tasks to the list, mark tasks as completed, and remove tasks from the list.',
+    technologies: ['HTML', 'SCSS', 'javaScript', 'Webpack', 'GitHub', 'Jest'],
+    liveVersion: 'https://rachaouldbabaali.github.io/To-do_list/dist/',
+    sourceCode: 'https://github.com/rachaouldbabaali/To-do_list',
   },
 ];
 
 const projectContainer = document.querySelector('#projects');
 
-projects.foreach((element, i) => {
+// eslint-disable-next-line array-callback-return
+projects.map((element, i) => {
   // create all elements used for card
 
   const projectDiv = document.createElement('div');
@@ -95,6 +96,7 @@ projects.foreach((element, i) => {
   const projectDescription = document.createElement('div');
   const pDescription = document.createElement('p');
   const languageUl = document.createElement('ul');
+  const languageDiv = document.createElement('div');
   const projectBtn = document.createElement('div');
 
   // initialise elements
@@ -109,17 +111,16 @@ projects.foreach((element, i) => {
   projectHeader.classList.add('project-heading');
   projectHeader.innerText = element.name;
   // stact text
-  canopyText.innerText = 'canopy';
+  canopyText.innerText = 'Racha Ouldbabaali';
   canopyText.classList.add('content-text', 'canopy');
   countImage.src = './images/Counter.svg';
   countImage.classList.add('count-vector');
-  backText.innerText = 'Back end dev';
+  backText.innerText = 'Front end dev';
   backText.classList.add('content-text');
   countImage2.src = './images/Counter.svg';
   countImage2.classList.add('count-vector');
-  yearText.innerText = '2015';
+  yearText.innerText = '2023';
   yearText.classList.add('content-text');
-  pDescription.innerText = 'A daily selection of privately personalized reads; no accounts or sign-ups required';
   languageUl.classList.add('languages');
   // place elements in document
   projectDiv.classList.add('project');
@@ -145,6 +146,7 @@ projects.foreach((element, i) => {
     languageUl.append(languageLi);
     languageUl.classList.add('languages-ul');
     languageLi.innerText = projects[i].technologies[n];
+    pDescription.innerText = projects[i].description;
   });
 
   projectContainer.appendChild(projectDiv);
@@ -232,6 +234,7 @@ function openModal(name, imgSource, description, technologies, liveVersion, sour
   overlay.classList.add('active');
 }
 
+// eslint-disable-next-line no-unused-vars
 function closeModal() {
   const modal = modalContainer.children[0];
   modalContainer.removeChild(modal);
@@ -284,6 +287,7 @@ name.value = savedData.user_name;
 email.value = savedData.user_email;
 message.value = savedData.user_message;
 
+// eslint-disable-next-line no-unused-vars
 function changeField(event) {
   const changedValue = event.target.value;
   const fieldName = event.target.name;
