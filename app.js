@@ -32,7 +32,7 @@ about.forEach((n) => {
 const projects = [
   {
     name: 'RAKI BOOK STORE',
-    featuredImg: './images/RAKIBookStore.png',
+    featuredImg: './images/RAKIBookStore.jpg',
     featuredImgMobile: './images/RAKIBookStore-m.png',
     description:
       'Rakibook store is an online bookstore that offers a wide variety of books across multiple genres. The store provides a convenient and user-friendly platform for customers to browse and purchase books from the comfort of their homes. ',
