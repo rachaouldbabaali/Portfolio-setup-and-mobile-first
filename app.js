@@ -53,7 +53,7 @@ const projects = [
   },
 
   {
-    name: 'Leaderboard List', 
+    name: 'Leaderboard List',
     featuredImg: 'images/leaderboard.png',
     featuredImgMobile: 'images/leaderboard-m.png',
     description:
